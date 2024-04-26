@@ -13,7 +13,6 @@ var _move = key_right - key_left;
 hsp = _move * walksp;
 
 vsp = vsp + grv;
-y = y + vsp;
 
 
 /* Collition */
@@ -27,7 +26,7 @@ if (place_meeting(x + hsp, y, obj_InvisibleWall)){
 x = x + hsp;
 
 // Vertical collition
-if (place_meeting(x, y - vsp, obj_InvisibleWall))
+if (place_meeting(x, y + vsp, obj_InvisibleWall))
 {
 	while (!place_meeting(x, y + sign(vsp), obj_InvisibleWall))
 	{
