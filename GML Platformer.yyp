@@ -5,15 +5,16 @@
   "resources": [
     {"id":{"name":"spr_Grain","path":"sprites/spr_Grain/spr_Grain.yy",},"order":1,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
-    {"id":{"name":"spr_Player_Air","path":"sprites/spr_Player_Air/spr_Player_Air.yy",},"order":5,},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},"order":4,},
     {"id":{"name":"tl_Walls","path":"tilesets/tl_Walls/tl_Walls.yy",},"order":0,},
     {"id":{"name":"spr_InvisibleWall","path":"sprites/spr_InvisibleWall/spr_InvisibleWall.yy",},"order":2,},
     {"id":{"name":"spr_Clouds","path":"sprites/spr_Clouds/spr_Clouds.yy",},"order":9,},
-    {"id":{"name":"spr_Player_Walk","path":"sprites/spr_Player_Walk/spr_Player_Walk.yy",},"order":6,},
+    {"id":{"name":"spr_Clyde_idle_strip12","path":"sprites/spr_Clyde_idle_strip12/spr_Clyde_idle_strip12.yy",},"order":10,},
     {"id":{"name":"obj_InvisibleWall","path":"objects/obj_InvisibleWall/obj_InvisibleWall.yy",},"order":1,},
     {"id":{"name":"spr_Background","path":"sprites/spr_Background/spr_Background.yy",},"order":8,},
+    {"id":{"name":"spr_Clyde_jump_strip3","path":"sprites/spr_Clyde_jump_strip3/spr_Clyde_jump_strip3.yy",},"order":11,},
     {"id":{"name":"spr_Walls","path":"sprites/spr_Walls/spr_Walls.yy",},"order":7,},
+    {"id":{"name":"spr_Clyde_walk_strip8","path":"sprites/spr_Clyde_walk_strip8/spr_Clyde_walk_strip8.yy",},"order":12,},
     {"id":{"name":"room_start","path":"rooms/room_start/room_start.yy",},"order":0,},
   ],
   "Options": [

@@ -49,23 +49,41 @@ y = y + vsp;
 /*********
 Animation
 *********/
+// In the air
 if (!place_meeting(x, y + 1, obj_InvisibleWall))
 {
-	sprite_index = spr_Player_Air;
+	sprite_index = spr_Clyde_jump_strip3;
 	image_speed = 0;
-	if(vsp > 0) image_index = 1; else image_index = 0;
-	
-}
-else
-{
-	image_speed = 1;
-	if(hsp == 0)
+
+	// Jumping up?
+	if (vsp < -2)
 	{
-		sprite_index = spr_Player;
+		image_index = 0;
+	}
+	// Top of jump?
+	else if (vsp >= -2 and vsp <= 2)
+	{
+		image_index = 1;
 	}
 	else
 	{
-		sprite_index = spr_Player_Walk;
+	//Falling down?
+		image_index = 2;
+	}
+}
+else
+{
+	// We are on a block
+	image_speed = 1;
+	
+	//we are idle or moving
+	if (hsp == 0)
+	{
+		sprite_index = spr_Clyde_idle_strip12;
+	}
+	else
+	{
+		sprite_index = spr_Clyde_walk_strip8;
 	}
 }
 
